@@ -1,0 +1,26 @@
+driver:
+        
+       typename: network_udp 
+       host: 192.168.1.177
+       num: 1362
+        
+drivers:
+     port: 8889
+     port: 8888
+
+animation:
+        typename: BiblioPixelAnimations.strip.Rainbows.RainbowCycle
+        palette:
+          # colors: [blue] #, green, blue]
+                continuous: True
+
+run:
+        fps: 100
+
+numbers: float
+
+layout:
+
+        typename: strip(driver)
+        brightness: 20
+               
