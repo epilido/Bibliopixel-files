@@ -2,11 +2,14 @@ driver:
         
        typename: network_udp 
        host: 192.168.1.177
-       num: 1362
-        
-drivers:
-     port: 8889
-     port: 8888
+       port: 8888
+       num: 681        
+driver:
+  typename: network_udp
+  host: 192.168.1.177
+  port: 8889
+  num: 681
+     
 
 animation:
         typename: BiblioPixelAnimations.strip.Rainbows.RainbowCycle
@@ -21,6 +24,6 @@ numbers: float
 
 layout:
 
-        typename: strip(driver)
+        typename: strip
         brightness: 20
                
