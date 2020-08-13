@@ -1,14 +1,13 @@
-driver:
-        
-       typename: network_udp 
-       host: 192.168.1.177
-       port: 8888
-       num: 681        
-driver:
-  typename: network_udp
-  host: 192.168.1.177
-  port: 8889
-  num: 681
+drivers:
+  - typename: network_udp 
+    host: 192.168.1.177
+    port: 8888
+    num: 100 #must be the same numLeds in sketch.
+
+  - typename: network_udp
+    host: 192.168.1.177
+    port: 8889
+    num: 100 #must be same same as numLeds in sketch
      
 
 animation:
